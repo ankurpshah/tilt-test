@@ -1,4 +1,4 @@
-FROM python:3.6
+FROM python:3.10.13
 
 # Default value; will be overridden by build-args, if passed
 ARG flask_env=production
